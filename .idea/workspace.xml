@@ -6,10 +6,10 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/Main.java" changelist="48773e74-f63d-46be-be41-bc22ff1c0935" time="1382034348120" ignored="false" />
     <file path="/PhoneState.java" changelist="48773e74-f63d-46be-be41-bc22ff1c0935" time="1382031812734" ignored="false" />
-    <file path="/Phone.java" changelist="48773e74-f63d-46be-be41-bc22ff1c0935" time="1382033441735" ignored="false" />
-    <file path="/Idle.java" changelist="48773e74-f63d-46be-be41-bc22ff1c0935" time="1382033658227" ignored="false" />
-    <file path="/Dialing.java" changelist="48773e74-f63d-46be-be41-bc22ff1c0935" time="1382033723081" ignored="false" />
-    <file path="/IncomingCall.java" changelist="48773e74-f63d-46be-be41-bc22ff1c0935" time="1382033785203" ignored="false" />
+    <file path="/Phone.java" changelist="48773e74-f63d-46be-be41-bc22ff1c0935" time="1382039471880" ignored="false" />
+    <file path="/Idle.java" changelist="48773e74-f63d-46be-be41-bc22ff1c0935" time="1382039291162" ignored="false" />
+    <file path="/Dialing.java" changelist="48773e74-f63d-46be-be41-bc22ff1c0935" time="1382039295933" ignored="false" />
+    <file path="/IncomingCall.java" changelist="48773e74-f63d-46be-be41-bc22ff1c0935" time="1382039266625" ignored="false" />
     <file path="/StateSample.java" changelist="48773e74-f63d-46be-be41-bc22ff1c0935" time="1382034313192" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -71,10 +71,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="StateSample.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="StateSample.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/patterneria/state/StateSample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="46" selection-start="142" selection-end="142" vertical-scroll-proportion="0.27468583">
+            <state line="9" column="46" selection-start="142" selection-end="142" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Dialing.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/patterneria/state/Dialing.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="32" selection-start="170" selection-end="170" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Idle.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/patterneria/state/Idle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="32" selection-start="164" selection-end="164" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IncomingCall.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/patterneria/state/IncomingCall.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="39" selection-start="188" selection-end="188" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Phone.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/org/patterneria/state/Phone.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="50" column="18" selection-start="767" selection-end="767" vertical-scroll-proportion="1.5260323">
               <folding />
             </state>
           </provider>
@@ -91,12 +127,12 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/src/org/patterneria/state/PhoneState.java" />
-        <option value="$PROJECT_DIR$/src/org/patterneria/state/Phone.java" />
-        <option value="$PROJECT_DIR$/src/org/patterneria/state/Idle.java" />
-        <option value="$PROJECT_DIR$/src/org/patterneria/state/Dialing.java" />
-        <option value="$PROJECT_DIR$/src/org/patterneria/state/IncomingCall.java" />
         <option value="$PROJECT_DIR$/src/org/patterneria/state/StateSample.java" />
         <option value="$PROJECT_DIR$/src/org/patterneria/Main.java" />
+        <option value="$PROJECT_DIR$/src/org/patterneria/state/IncomingCall.java" />
+        <option value="$PROJECT_DIR$/src/org/patterneria/state/Idle.java" />
+        <option value="$PROJECT_DIR$/src/org/patterneria/state/Dialing.java" />
+        <option value="$PROJECT_DIR$/src/org/patterneria/state/Phone.java" />
       </list>
     </option>
   </component>
@@ -165,6 +201,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="patterneria" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Patterneria" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Patterneria" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="patterneria" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="state" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -242,8 +300,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1026" extended-state="7" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -263,7 +321,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.249694" sideWeight="0.6708861" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.249694" sideWeight="0.6708861" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32911393" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -393,37 +451,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/patterneria/state/Phone.java">
+    <entry file="file://$PROJECT_DIR$/src/org/patterneria/state/StateSample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="45" selection-start="182" selection-end="182" vertical-scroll-proportion="0.29802513">
+        <state line="9" column="46" selection-start="142" selection-end="142" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/patterneria/state/Idle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="3" selection-start="39" selection-end="39" vertical-scroll-proportion="0.091561936">
+        <state line="10" column="32" selection-start="164" selection-end="164" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/patterneria/state/Dialing.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="87" selection-start="237" selection-end="237" vertical-scroll-proportion="0.2064632">
+        <state line="10" column="32" selection-start="170" selection-end="170" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/patterneria/state/IncomingCall.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="26" selection-start="214" selection-end="214" vertical-scroll-proportion="0.36624774">
+        <state line="10" column="39" selection-start="188" selection-end="188" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/patterneria/state/StateSample.java">
+    <entry file="file://$PROJECT_DIR$/src/org/patterneria/state/Phone.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="46" selection-start="142" selection-end="142" vertical-scroll-proportion="0.27468583">
+        <state line="50" column="18" selection-start="767" selection-end="767" vertical-scroll-proportion="1.5260323">
           <folding />
         </state>
       </provider>
