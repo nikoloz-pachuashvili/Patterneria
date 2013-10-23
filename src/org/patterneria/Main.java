@@ -3,6 +3,8 @@ package org.patterneria;
 import org.patterneria.state.StateSample;
 import org.patterneria.strategy.StrategySample;
 
+import java.util.HashMap;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -18,6 +20,5 @@ public class Main {
 
         StateSample state = new StateSample();
         state.run();
-
     }
 }
