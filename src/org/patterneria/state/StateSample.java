@@ -12,7 +12,7 @@ public class StateSample {
         phone.dial();
         phone.endCall();
 
-        phone.setState(new IncomingCall(phone));
+        phone.setState(new IncomingCall());
 
         phone.ignore();
         phone.dial();

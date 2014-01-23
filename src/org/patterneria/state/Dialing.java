@@ -5,23 +5,11 @@ package org.patterneria.state;
  */
 public class Dialing implements PhoneState {
 
-    Phone phone;
-
-    /**
-     * Initializes instance of Dialing state
-     *
-     * @param phone
-     *          instance of context
-     */
-    public Dialing(Phone phone) {
-        this.phone = phone;
-    }
-
     /**
      * "Dial" operation implementation
      */
     @Override
-    public void dial() {
+    public void dial(Phone phone) {
         System.out.println("Unable to dial, already dialing");
     }
 
@@ -29,16 +17,16 @@ public class Dialing implements PhoneState {
      * "End call" operation implementation
      */
     @Override
-    public void endCall() {
+    public void endCall(Phone phone) {
         System.out.println("Ending call, Setting phone state to \"Idle\"");
-        this.phone.setState(new Idle(this.phone));
+        phone.setState(new Idle());
     }
 
     /**
      * "Answer" operation implementation
      */
     @Override
-    public void answer() {
+    public void answer(Phone phone) {
         System.out.println("Unable to answer call, already dialing.");
     }
 
@@ -46,7 +34,7 @@ public class Dialing implements PhoneState {
      * "Ignore" operation implementation
      */
     @Override
-    public void ignore() {
+    public void ignore(Phone phone) {
         System.out.println("Unable to ignore call, already dialing.");
     }
 }

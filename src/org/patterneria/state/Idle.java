@@ -5,32 +5,20 @@ package org.patterneria.state;
  */
 public class Idle implements PhoneState {
 
-    Phone phone;
-
-    /**
-     * Initializes instance of Idle state
-     *
-     * @param phone
-     *           instance of context
-     */
-    public Idle(Phone phone){
-        this.phone = phone;
-    }
-
     /**
      * "Dial" operation implementation
      */
     @Override
-    public void dial() {
+    public void dial(Phone phone) {
         System.out.println("Dialing, Setting phone state to \"Dialing\"");
-        this.phone.setState(new Dialing(this.phone));
+        phone.setState(new Dialing());
     }
 
     /**
      * "End call" operation implementation
      */
     @Override
-    public void endCall() {
+    public void endCall(Phone phone) {
         System.out.println("Unable to end call, Phone state is idle.");
     }
 
@@ -38,7 +26,7 @@ public class Idle implements PhoneState {
      * "Answer" operation implementation
      */
     @Override
-    public void answer() {
+    public void answer(Phone phone) {
         System.out.println("Unable to answer call, there is no incoming call.");
     }
 
@@ -46,7 +34,7 @@ public class Idle implements PhoneState {
      * "Ignore" operation implementation
      */
     @Override
-    public void ignore() {
+    public void ignore(Phone phone) {
         System.out.println("Unable to ignore call, there is no incoming call.");
     }
 }
