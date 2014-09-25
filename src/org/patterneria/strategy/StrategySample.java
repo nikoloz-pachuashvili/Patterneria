@@ -24,5 +24,16 @@ public class StrategySample {
         System.out.println("Learn strategy pattern by patterneria:");
         tutorial.apply();
 
+        tutorial.setLearningStrategy(new StrategyWithPPTSlidesDecorator(new StrategyPatternByGOF()));
+        System.out.println("Learn strategy pattern by \"GOF\" with slides:");
+        tutorial.apply();
+
+        tutorial.setLearningStrategy(new StrategyMix(new StrategyPatternByGOF(),
+                new StrategyByHeadFirst(),
+                new StrategyByPatterneria()));
+
+        System.out.println("Learn strategy pattern from several sources:");
+        tutorial.apply();
+
     }
 }
