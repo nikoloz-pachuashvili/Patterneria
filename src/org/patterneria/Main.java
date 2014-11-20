@@ -4,6 +4,7 @@ import org.patterneria.iterator.IteratorSample;
 import org.patterneria.iterator.MetroLine;
 import org.patterneria.state.StateSample;
 import org.patterneria.strategy.StrategySample;
+import org.patterneria.visitor.VisitorSample;
 
 import java.util.Iterator;
 
@@ -11,24 +12,18 @@ import java.util.Iterator;
 public class Main {
 
     public static void main(String[] args) {
-
         System.out.println("Hello patterneria");
 
         System.out.println("Strategy Pattern sample:");
-
-        StrategySample strategy = new StrategySample();
-        strategy.run();
+        new StrategySample().run();
 
         System.out.println("State Pattern sample:");
-
-        StateSample state = new StateSample();
-        state.run();
+        new StateSample().run();
 
         System.out.println("Iterator pattern sample");
+        new IteratorSample().run();
 
-        IteratorSample iterator = new IteratorSample();
-
-        iterator.run();
-
+        System.out.println("Visitor pattern sample");
+        new VisitorSample().run();
     }
 }
