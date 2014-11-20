@@ -1,7 +1,5 @@
 package org.patterneria.visitor;
 
-import com.sun.xml.internal.bind.v2.runtime.reflect.opt.Const;
-
 /**
  * Arithmetic expression pretty printer (Concrete visitor)
  * Prints Arithmetic expression
