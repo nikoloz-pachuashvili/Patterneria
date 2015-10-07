@@ -5,6 +5,9 @@ package org.patterneria.bridge;
  */
 public class DigitalImageSensor implements LightSensitiveMedium {
 
+    /**
+     * Records light using digital sensor.
+     */
     @Override
     public void recordLight() {
         System.out.println("Recording light digitally");

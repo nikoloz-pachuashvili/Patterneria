@@ -5,6 +5,9 @@ package org.patterneria.bridge;
  */
 public class ColorFilm implements LightSensitiveMedium {
 
+    /**
+     * Records light on color film
+     */
     @Override
     public void recordLight() {
         System.out.println("Recording light on color film");
