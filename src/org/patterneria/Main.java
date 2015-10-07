@@ -1,5 +1,6 @@
 package org.patterneria;
 
+import org.patterneria.bridge.BridgeSample;
 import org.patterneria.iterator.IteratorSample;
 import org.patterneria.iterator.MetroLine;
 import org.patterneria.state.StateSample;
@@ -25,5 +26,8 @@ public class Main {
 
         System.out.println("Visitor pattern sample");
         new VisitorSample().run();
+
+        System.out.println("Bridge pattern sample");
+        new BridgeSample().run();
     }
 }

@@ -1,7 +1,7 @@
 package org.patterneria.bridge;
 
 /**
- * Color photographic film
+ * Color photographic film, concrete implementation of light-sensitive medium.
  */
 public class ColorFilm implements LightSensitiveMedium {
 

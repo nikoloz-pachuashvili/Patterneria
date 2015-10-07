@@ -1,7 +1,7 @@
 package org.patterneria.bridge;
 
 /**
- * Black and white photographic film
+ * Black and white photographic film, concrete implementation of light-sensitive medium.
  */
 public class BWFilm implements LightSensitiveMedium {
 
